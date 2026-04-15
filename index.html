@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1on1 Online Soccer Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="ui-container">
+        <h1>1on1 Soccer Game</h1>
+        <div id="login-section">
+            <input type="text" id="username" placeholder="유저네임 입력">
+            <button onclick="login()">게임 시작</button>
+        </div>
+        
+        <canvas id="gameCanvas" width="800" height="400" style="display:none;"></canvas>
+        
+        <div id="instructions">
+            <p>Player 1: W / S | Player 2: 위 / 아래 화살표</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+    <script>
+        // app.py의 기능을 대신할 간단한 로직
+        function login() {
+            const user = document.getElementById('username').value;
+            if(user) {
+                document.getElementById('login-section').style.display = 'none';
+                document.getElementById('gameCanvas').style.display = 'block';
+                console.log(user + "님 환영합니다!");
+                // game.js에 정의된 게임 시작 함수 호출 (예: startGame())
+            }
+        }
+    </script>
+</body>
+</html>
