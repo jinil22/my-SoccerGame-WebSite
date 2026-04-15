@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "password_hash": "e32bd257301af61b73c85a28e0be6f3e178c8690370a81de6b3d450e3b5d2218",
+    "recovery_code_hash": "",
+    "role": "admin",
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "trophies": 0,
+    "season_points": 0,
+    "season_matches": 0,
+    "gold": 0,
+    "upgrades": {
+      "shot_power": 0,
+      "sprint_speed": 0,
+      "max_stamina": 0
+    }
+  },
+  "wlwlsdlf1234": {
+    "password_hash": "dc858da800671bc2ed790bb7b0bc3b2ab45880ea9fc41ac99536bb4761165951",
+    "recovery_code_hash": "",
+    "role": "player",
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
+    "trophies": 1,
+    "season_points": 7,
+    "season_matches": 1,
+    "gold": 220,
+    "upgrades": {
+      "shot_power": 0,
+      "sprint_speed": 0,
+      "max_stamina": 1
+    }
+  },
+  "1234": {
+    "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "recovery_code_hash": "",
+    "role": "player",
+    "wins": 3,
+    "draws": 0,
+    "losses": 2,
+    "trophies": 0,
+    "season_points": 9,
+    "season_matches": 5,
+    "gold": 70,
+    "upgrades": {
+      "shot_power": 0,
+      "sprint_speed": 1,
+      "max_stamina": 0
+    }
+  },
+  "가나다": {
+    "password_hash": "c181ab3f50a2cd6ef335f5f5c3b0587cf001ca9d34d2e8dc32dc4c93ff346ede",
+    "recovery_code_hash": "",
+    "role": "player",
+    "wins": 1,
+    "draws": 0,
+    "losses": 2,
+    "trophies": 0,
+    "season_points": 3,
+    "season_matches": 3,
+    "gold": 50,
+    "upgrades": {
+      "shot_power": 0,
+      "sprint_speed": 0,
+      "max_stamina": 0
+    }
+  },
+  "wlwls": {
+    "password_hash": "78437977a04d72e84b44f7a72bda377d3ac57727ab277c6700b9d90936bbfd7c",
+    "recovery_code_hash": "",
+    "role": "player",
+    "wins": 1,
+    "draws": 2,
+    "losses": 2,
+    "trophies": 0,
+    "season_points": 5,
+    "season_matches": 5,
+    "gold": 70,
+    "upgrades": {
+      "shot_power": 0,
+      "sprint_speed": 0,
+      "max_stamina": 0
+    }
+  }
+}
